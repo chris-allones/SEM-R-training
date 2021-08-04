@@ -39,7 +39,7 @@ body {
   }
   
   .hero {
-    background-color: #edf6f9;
+    background-color: #264653;
     padding: 60px 45px;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ body {
   
   .hero-inner {
     max-width: 760px;
-    color: #073b4c;
+    color: #fff;
   }
 
     
@@ -69,6 +69,48 @@ body {
   }
   
   .button {
+    background-color: #2a9d8f;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    font-weight: bolder;
+    display: inline-block;
+  }
+
+  .button:hover {
+    background-color: #06d6a0;
+    transform: rotate(3deg);
+  }
+  
+  /* Training navigation buttons*/
+  .feature {
+    background-color: #d8e2dc;
+    padding: 60px 45px;
+  }
+
+  .training-button {
+    align-items: center center;
+    display: flex;
+    justify-content: space-between;
+    display: table;
+    margin: auto;
+  }
+  
+  .training-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .training-nav li {
+     margin-left: 30px;
+     display: inline;
+  }
+
+  .training-nav a {
     background-color: #264653;
     color: #FFF;
     text-decoration: none;
@@ -78,35 +120,105 @@ body {
     display: inline-block;
   }
 
-  .button:hover {
-    font-weight: bold;
+  .training-nav a:hover {
+    transform: rotate(2deg);
+    font-weight: bolder;
   }
-  
-  .features {
-    background-color: #d8e2dc;
-    padding: 60px 45px;
+
+  .training-nav li .outline {
+    background-color: #219ebc;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
   }
-  
-  .features-inner {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-column-gap: 45px;
-    grid-row-gap: 45px;
+
+  .training-nav li .materials {
+    background-color: #219ebc;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
   }
-  
-  .featured-item h3 {
-    color: #283593;
-    font-size: 1.5rem;
-    font-weight: normal;
-    margin: 0;
+
+  .training-nav li .presentation {
+    background-color: #219ebc;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
   }
-  
-  .featured-item p {
-    margin: 0;
-    line-height: 1.6;
+
+  /*outline div*/
+
+  .outline-div {
+    padding-top: 60px;
+    padding-left: 200px;
+    justify-items: center;
+  }
+
+  .outline-div .session {
+    padding-top: 20px;
+  }
+
+  .outline-div h1 {
+    color: #073b4c;
+    font-size: 220%;
+
+  }
+
+  .outline-div li {
+    font-size: 120%;
+  }
+
+  /*presentation tab*/
+  .presentation-div {
+    padding-top: 60px;
+    padding-left: 200px;
+    justify-items: center;
+  }
+
+  .presentation-div .session {
+    padding-top: 20px;
+  }
+
+  .presentation-div .session li {
+    list-style: none;
+    margin: 10px;
+  }
+
+  .presentation-keyboard kbd {
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #b4b4b4;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
     color: #333;
+    display: inline-block;
+    font-size: .85em;
+    font-weight: 700;
+    line-height: 1;
+    padding: 2px 4px;
+    white-space: nowrap;
+  }
+
+  .presentation-session1 .btn-slides {
+    background-color: #fff;
+    color: #333;
+    font-size: 16px;
+    border: 1px solid #b4b4b4;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 5px;
+    display: inline-block;
   }
   
   .footer {
