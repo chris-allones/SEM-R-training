@@ -220,6 +220,11 @@ body {
     padding: 5px;
     display: inline-block;
   }
+
+  .presentation-session1 .btn-slides:hover {
+    transform: rotate(1deg);
+    font-weight: bolder;
+  }
   
   .footer {
     text-align: center;
