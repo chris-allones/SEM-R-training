@@ -1,234 +1,246 @@
 body {
-    margin: 0;
-    font-family: "Source Sans Pro", sans-serif;
-  }
-  
-  .header {
-    padding: 0 45px;
-    background-color: #264653;
-    color: #FFF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: large;
-  }
-  
-  .nav a {
-    color: #FFF;
-    text-decoration: none;
-    display: block;
-    transition: all 0.3s ease-out;
-    font-weight: bold;
-  }
-  
-  .nav a:hover {
-    color: #c5cae9;
-    transform: rotate(3deg);
-  }
-  
-  .nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  .nav li {
-    margin-left: 20px;
-  }
-  
-  .hero {
-    background-color: #264653;
-    padding: 60px 45px;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .hero-inner {
-    max-width: 760px;
-    color: #fff;
-  }
+  margin: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
 
-    
-  .hero h1 {
-    font-weight: bolder;
-    font-size: 5rem;
-    margin: 0;
-  }
+.header {
+  padding: 0 45px;
+  background-color: #264653;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: large;
+}
 
-  .hero h2 {
-      font-weight: normal;
-      font-size: 3rem;
-      margin: 0;
-  }
-  
-  .hero p {
-    font-size: 2rem;
-    line-height: 1.6;
-  }
-  
-  .button {
-    background-color: #2a9d8f;
-    color: #fff;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.18rem;
-    font-weight: bolder;
-    display: inline-block;
-  }
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+  font-weight: bold;
+}
 
-  .button:hover {
-    background-color: #06d6a0;
-    transform: rotate(3deg);
-  }
-  
-  /* Training navigation buttons*/
-  .feature {
-    background-color: #d8e2dc;
-    padding: 60px 45px;
-  }
+.nav a:hover {
+  color: #c5cae9;
+  transform: rotate(3deg);
+}
 
-  .training-button {
-    align-items: center center;
-    display: flex;
-    justify-content: space-between;
-    display: table;
-    margin: auto;
-  }
-  
-  .training-nav {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  .training-nav li {
-     margin-left: 30px;
-     display: inline;
-  }
+.nav li {
+  margin-left: 20px;
+}
 
-  .training-nav a {
-    background-color: #264653;
-    color: #FFF;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.18rem;
-    display: inline-block;
-  }
+.hero {
+  background-color: #264653;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
 
-  .training-nav a:hover {
-    transform: rotate(2deg);
-    font-weight: bolder;
-  }
+.hero-inner {
+  max-width: 760px;
+  color: #fff;
+}
 
-  .training-nav li .outline {
-    background-color: #219ebc;
-    color: #FFF;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.18rem;
-    display: inline-block;
-  }
+.hero h1 {
+  font-weight: bolder;
+  font-size: 5rem;
+  margin: 0;
+}
 
-  .training-nav li .materials {
-    background-color: #219ebc;
-    color: #FFF;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.18rem;
-    display: inline-block;
-  }
+.hero h2 {
+  font-weight: normal;
+  font-size: 3rem;
+  margin: 0;
+}
 
-  .training-nav li .presentation {
-    background-color: #219ebc;
-    color: #FFF;
-    text-decoration: none;
-    padding: 12px 20px;
-    border-radius: 8px;
-    font-size: 1.18rem;
-    display: inline-block;
-  }
+.hero p {
+  font-size: 2rem;
+  line-height: 1.6;
+}
 
-  /*outline div*/
+.button {
+  background-color: #2a9d8f;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  font-weight: bolder;
+  display: inline-block;
+}
 
-  .outline-div {
-    padding-top: 60px;
-    padding-left: 200px;
-    justify-items: center;
-  }
+.button:hover {
+  background-color: #06d6a0;
+  transform: rotate(3deg);
+}
 
-  .outline-div .session {
-    padding-top: 20px;
-  }
+/* Training navigation buttons*/
+.feature {
+  background-color: #d8e2dc;
+  padding: 60px 45px;
+}
 
-  .outline-div h1 {
-    color: #073b4c;
-    font-size: 220%;
+.training-button {
+  align-items: center center;
+  display: flex;
+  justify-content: space-between;
+  display: table;
+  margin: auto;
+}
 
-  }
+.training-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
 
-  .outline-div li {
-    font-size: 120%;
-  }
+.training-nav li {
+  margin-left: 30px;
+  display: inline;
+}
 
-  /*presentation tab*/
-  .presentation-div {
-    padding-top: 60px;
-    padding-left: 200px;
-    justify-items: center;
-  }
+.training-nav a {
+  background-color: #264653;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
 
-  .presentation-div .session {
-    padding-top: 20px;
-  }
+.training-nav a:hover {
+  transform: rotate(2deg);
+  font-weight: bolder;
+}
 
-  .presentation-div .session li {
-    list-style: none;
-    margin: 10px;
-  }
+.training-nav li .outline {
+  background-color: #219ebc;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
 
-  .presentation-keyboard kbd {
-    background-color: #eee;
-    border-radius: 3px;
-    border: 1px solid #b4b4b4;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;
-    color: #333;
-    display: inline-block;
-    font-size: .85em;
-    font-weight: 700;
-    line-height: 1;
-    padding: 2px 4px;
-    white-space: nowrap;
-  }
+.training-nav li .materials {
+  background-color: #219ebc;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
 
-  .presentation-session1 .btn-slides {
-    background-color: #fff;
-    color: #333;
-    font-size: 16px;
-    border: 1px solid #b4b4b4;
-    border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .2), 0 2px 0 0 rgba(255, 255, 255, .7) inset;;
-    text-align: center;
-    text-decoration: none;
-    box-sizing: border-box;
-    padding: 5px;
-    display: inline-block;
-  }
+.training-nav li .presentation {
+  background-color: #219ebc;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.18rem;
+  display: inline-block;
+}
 
-  .presentation-session1 .btn-slides:hover {
-    transform: rotate(1deg);
-    font-weight: bolder;
-  }
-  
-  .footer {
-    text-align: center;
-    padding: 20px 0;
-    color: #999;
-    font-size: .9rem;
-  }
+/*outline div*/
+
+.outline-div {
+  padding-top: 60px;
+  padding-left: 200px;
+  justify-items: center;
+}
+
+.outline-div .session {
+  padding-top: 20px;
+}
+
+.outline-div h1 {
+  color: #073b4c;
+  font-size: 220%;
+}
+
+.outline-div li {
+  font-size: 120%;
+}
+
+/*presentation tab*/
+.presentation-div {
+  padding-top: 60px;
+  padding-left: 200px;
+  justify-items: center;
+}
+
+.presentation-div .session {
+  padding-top: 20px;
+}
+
+.presentation-div .session li {
+  list-style: none;
+  margin: 10px;
+}
+
+.presentation-keyboard kbd {
+  background-color: #eee;
+  border-radius: 3px;
+  border: 1px solid #b4b4b4;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  color: #333;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+.presentation-session1 .btn-slides {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+  border: 1px solid #b4b4b4;
+  border-radius: 3px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2),
+    0 2px 0 0 rgba(255, 255, 255, 0.7) inset;
+  text-align: center;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 5px;
+  display: inline-block;
+}
+
+.presentation-session1 .btn-slides:hover {
+  transform: rotate(1deg);
+  font-weight: bolder;
+}
+
+.training-materials {
+  padding-top: 60px;
+  padding-left: 200px;
+  justify-items: center;
+}
+
+.training-materials div {
+  padding-top: 30px;
+  justify-items: center;
+  margin-left: 26%;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #999;
+  font-size: 0.9rem;
+}
