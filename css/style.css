@@ -234,8 +234,7 @@ body {
 
 .training-materials div {
   padding-top: 30px;
-  justify-items: center;
-  margin-left: 26%;
+  padding-bottom: 20px;
 }
 
 .footer {
