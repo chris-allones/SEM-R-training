@@ -259,6 +259,12 @@ body {
   font-weight: bolder;
 }
 
+.presentation-material iframe {
+  width: 600px;
+  height: 400px;
+  max-width: 100%;
+}
+
 .training-materials {
   padding-top: 60px;
   padding-left: 200px;
@@ -275,9 +281,6 @@ body {
   margin-bottom: 10px;
 }
 
-iframe {
-  max-width: 100%;
-}
 
 .footer {
   text-align: center;
