@@ -294,7 +294,7 @@ body {
 
 .presentation-material iframe {
   height: 40rem;
-  width: 70rem;
+  width: 70rem !important;
   max-width: 70rem !important;
   overflow-block: auto;
 }
