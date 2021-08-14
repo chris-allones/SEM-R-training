@@ -296,6 +296,7 @@ body {
   height: 40rem;
   width: 70rem;
   max-width: 70rem !important;
+  overflow-block: auto;
 }
 
 .training-materials {
