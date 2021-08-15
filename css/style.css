@@ -204,6 +204,14 @@ body {
   padding: 2px 0px;
 }
 
+.case-study {
+  width: 50vw;
+  font-size: 1.8rem;
+  padding: 2rem 0rem;
+  line-height: 135%;
+  text-align: justify;
+}
+
 /*presentation tab*/
 .presentation-div {
   padding-top: 60px;
