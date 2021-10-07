@@ -175,6 +175,16 @@ body {
   display: inline-block;
 }
 
+.training-nav li .recorded_session {
+  background-color: #219ebc;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1.8rem;
+  display: inline-block;
+}
+
 /*outline div*/
 
 .outline-div {
