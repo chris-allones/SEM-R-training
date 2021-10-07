@@ -349,7 +349,6 @@ body {
   font-size: 1.5rem;
 }
 
-
 @media screen and (max-width: 1200px) {
   html {
       font-size: 60%;
@@ -380,13 +379,13 @@ body {
     justify-items: center;
   }
 
-  iframe {
-    width: 400px;
-    height: 200px;
-  }
-
   .training-materials iframe {
     width: 650px;
+    height: 400px;
+  }
+
+  .presentation-material iframe {
+    width: 500px;
     height: 400px;
   }
   
