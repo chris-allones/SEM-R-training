@@ -350,38 +350,39 @@ body {
 }
 
 
-@media screen and (max-width: 933px) {
+@media screen and (max-width: 1200px) {
   html {
-      font-size: 30%;
+      font-size: 60%;
   }
 
   .outline-div {
-    padding-top: 0px;
+    padding-top: 2px;
     padding-left: 20px;
     justify-items: left;
   }
 
   .presentation-div {
+    justify-content: left;
     padding-top: 20px;
     padding-left: 20px;
-    justify-items: left;
   }
 
   .feature {
     padding-top: 20px;
     padding-left: 20px;
     justify-items: left;
+    margin: 0px;
   }
 
   .feature .training-materials {
     padding-top: 20px;
     padding-left: 20px;
-    justify-items: left;
+    justify-items: center;
   }
   
   iframe {
-    width: 300px;
-    height: 150px;
+    width: 400px;
+    height: 200px;
   }
 
   
