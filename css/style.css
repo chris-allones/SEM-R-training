@@ -355,8 +355,27 @@ body {
       font-size: 30%;
   }
 
+  .presentation-div {
+    padding-top: 60px;
+    padding-left: 20px;
+    justify-items: left;
+  }
+
+  .feature {
+    padding-top: 60px;
+    padding-left: 20px;
+    justify-items: left;
+  }
+
+  .feature .training-materials {
+    padding-left: 20px;
+    justify-items: left;
+  }
+  
   iframe {
     width: 300px;
     height: 150px;
   }
+
+  
 }
