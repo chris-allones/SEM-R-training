@@ -355,19 +355,26 @@ body {
       font-size: 30%;
   }
 
+  .outline-div {
+    padding-top: 0px;
+    padding-left: 20px;
+    justify-items: left;
+  }
+
   .presentation-div {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 20px;
     justify-items: left;
   }
 
   .feature {
-    padding-top: 60px;
+    padding-top: 20px;
     padding-left: 20px;
     justify-items: left;
   }
 
   .feature .training-materials {
+    padding-top: 20px;
     padding-left: 20px;
     justify-items: left;
   }
