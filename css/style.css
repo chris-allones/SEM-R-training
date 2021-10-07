@@ -348,3 +348,10 @@ body {
   color: #999;
   font-size: 1.5rem;
 }
+
+
+@media screen and (max-width: 933px) {
+  html {
+      font-size: 30%;
+  }
+}
