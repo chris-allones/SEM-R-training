@@ -354,4 +354,8 @@ body {
   html {
       font-size: 30%;
   }
+
+  iframe {
+    width: 300px;
+  }
 }
