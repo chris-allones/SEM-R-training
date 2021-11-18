@@ -1,4 +1,4 @@
-# Training Workshop on the Basics of Structural Equation Modelling (SEM) using R.
+# [Training Workshop on the Basics of Structural Equation Modelling (SEM) using R.](https://chris-allones.github.io/SEM-R-training/index.html)
 
 ![](https://chris-allones.github.io/SEM-R-training/images/preview.png)
 
