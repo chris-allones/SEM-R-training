@@ -1,4 +1,4 @@
-# [Training Workshop on the Basics of Structural Equation Modelling (SEM) using R.](https://chris-allones.github.io/SEM-R-training/index.html)
+# <p align="center">[Training Workshop on the Basics of Structural Equation Modelling (SEM) using R.](https://chris-allones.github.io/SEM-R-training/index.html)</p>
 
 ![](https://chris-allones.github.io/SEM-R-training/images/preview2.png)
 
