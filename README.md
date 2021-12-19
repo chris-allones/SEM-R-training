@@ -6,6 +6,17 @@
 
 ### Intro to R and basic data wrangling
 Presentation: [link](https://chris-allones.github.io/trainings/SEM_presentation/00_intro_r/introR.html)
+- R objects
+- R packages
+- Reading data into R
+- Basic data wrangling with Tidyverse
+    - select()
+    - filter()
+    - mutate()
+    - rename()
+    - arrange()
+    - group_by() and summarize()
+    - %>% pipe operator
 
 ### Session 1: Exploratory Factor Analysis (EFA)
 Presentation: [link](https://chris-allones.github.io/trainings/SEM_presentation/01_efa/efa_presentation.html)
