@@ -2,6 +2,7 @@
 
 ![](https://chris-allones.github.io/SEM-R-training/images/preview2.png)
 
+
 ## Outline
 
 ### [Intro to R and basic data wrangling](https://chris-allones.github.io/trainings/SEM_presentation/00_intro_r/introR.html)
@@ -39,3 +40,7 @@
 ### [Session 3: Case study](https://chris-allones.github.io/trainings/SEM_presentation/03_case_study/03_case_study.html)
 
 In this session, we will be replicating the results of a study entitled "Young people's perceived service quality and environmental performance of hybrid electric bus service" by Munim and Noor (2020). You can access the article by clicking this [DOI link](https://doi.org/10.1016/j.tbs.2020.03.003). The idea of this session is to be familiar with how SEM results are presented in a publishable format.
+
+## Participants expectations
+
+![](https://chris-allones.github.io/trainings/training_expectations/ggwordcloud_expectations.jpg)
